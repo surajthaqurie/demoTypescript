@@ -14,3 +14,31 @@ const user: User = {
 // const newUser: User = {
 //   username: "Hayes",  // Type '{ username: string; }' is not assignable to type 'User'.
 // };
+
+// interface declaration with classes
+class UserAccount {
+  name: string;
+  id: number;
+  age: number;
+  email: string;
+
+  constructor(name: string, id: number, age: number, email: string) {
+    this.name = name;
+    this.id = id;
+    this.age = age;
+    this.email = email;
+  }
+}
+
+// const newUser: User = new UserAccount("Murphy", 1); //Expected 4 arguments, but got 2.
+// const newUer: User = new UserAccount("Murphy", 1, 15, 2); //Argument of type 'number' is not assignable to parameter of type 'string'
+
+const newUer: User = new UserAccount("Murphy", 1, 15, "murphy@email.com");
+
+// Annotate parameters
+function deleteUser(user: User) {}
+
+// return values to functions:
+function getAdminUser(): User {
+  return;
+}
