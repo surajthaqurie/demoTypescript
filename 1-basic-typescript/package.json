@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "ts-node example.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
