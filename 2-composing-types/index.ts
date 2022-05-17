@@ -65,3 +65,4 @@ const newVPoint = new VirtualPoint(13, 25);
 logPoint(newVPoint); // logs "13, 56"
 
 // If the object or class has all the required properties, TypeScript will say they match, regardless of the implementation details.
+
