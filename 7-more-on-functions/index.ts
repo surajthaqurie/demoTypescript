@@ -151,3 +151,4 @@ function sum2({ a, b, c }: ABC) {
 }
 
 // Assignability of Functions
+// return type void
